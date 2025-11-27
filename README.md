@@ -8,3 +8,6 @@ He implementado en este sistema usando todo lo aprendido en clase.
 - Para el funcionamiento de los botones, he usado las interrupciones hardware de los pines de arduino UNO. Con ellos detecto cuando el boton cambia de estado (CHANGE). Dentro de la función llamada tras este cambio diferencio entre FALLING y RISING dependiendo del estado actual del botón. En el primer caso guardo el tiempo (en ms) actual y en el segundo comparo ese tiempo con el nuevo, para ver si han pasado los 3 o 5 segundos requeridos. No es posible utilizar delays o utilizar comunicación, por lo que el código en esta función se basaba en guardar/comparar datos y cambiar flags.
 
 ## Video Explicativo
+
+## Esquema Circuito
+![circuito](maquina_expendedora.fzz)
