@@ -9,6 +9,6 @@ He implementado en este sistema usando todo lo aprendido en clase.
 - Para evitar rebotes en las señales de entrada me he limitado a utilizar delays. En algunos casos parecen delays excesivos pero son los necesarios para que la navegación por el menu mostrado en el display sea óptima.
 
 ## Video Explicativo
-![video](https://urjc-my.sharepoint.com/personal/ja_gutierrezc_2022_alumnos_urjc_es/_layouts/15/stream.aspx?id=%2Fpersonal%2Fja%5Fgutierrezc%5F2022%5Falumnos%5Furjc%5Fes%2FDocuments%2Fempotrados%2Emov%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eccd5d2e2%2D1722%2D46ea%2Dae09%2D25daf1e48927)
+[video](https://urjc-my.sharepoint.com/personal/ja_gutierrezc_2022_alumnos_urjc_es/_layouts/15/stream.aspx?id=%2Fpersonal%2Fja%5Fgutierrezc%5F2022%5Falumnos%5Furjc%5Fes%2FDocuments%2Fempotrados%2Emov%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eccd5d2e2%2D1722%2D46ea%2Dae09%2D25daf1e48927)
 ## Esquema Circuito
 ![circuito](./maquina_expendedora.png)
