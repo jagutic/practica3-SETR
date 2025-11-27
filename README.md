@@ -10,4 +10,4 @@ He implementado en este sistema usando todo lo aprendido en clase.
 ## Video Explicativo
 
 ## Esquema Circuito
-![circuito](./maquina_expendedora.fzz)
+![circuito](./maquina_expendedora.png)
