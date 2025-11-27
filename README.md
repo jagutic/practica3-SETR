@@ -4,7 +4,7 @@ Información sobre la practica 3 de la asignatura Sistemas Empotrados y de Tiemp
 ## Mi Solución
 He implementado en este sistema usando todo lo aprendido en clase.
 - Para actualizar datos globales tal como sensores y el conteador de tiempo, he utilizado threads. Además de para eso también para implementar en parpadeo inicial del LED, con el fin de usar menos recursos (menos delays).
-- Para evitar bloques inesperados, he usado watchdog (8s), reset() cuando es necesario para que funcione correctamente. Más de una vez watchdog ha reiniciado la placa cuando entraba en un bloquei sin saberlo.
+- Para evitar bloques inesperados, he usado watchdog (8s), reseteandolo en casos en los que espero que el sistema pase más de 8 segundos sin volver a empezar el bucle. Más de una vez watchdog ha reiniciado la placa cuando era necesario y me quedaba bloqueado en algún estado de la máquina expendedora.
 - Para el funcionamiento de los botones, he usado las interrupciones hardware de los pines de arduino UNO. Con ellos detecto cuando el boton cambia de estado (CHANGE). Dentro de la función llamada tras este cambio diferencio entre FALLING y RISING dependiendo del estado actual del botón. En el primer caso guardo el tiempo (en ms) actual y en el segundo comparo ese tiempo con el nuevo, para ver si han pasado los 3 o 5 segundos requeridos. No es posible utilizar delays o utilizar comunicación, por lo que el código en esta función se basaba en guardar/comparar datos y cambiar flags.
 - Para evitar rebotes en las señales de entrada me he limitado a utilizar delays. En algunos casos parecen delays excesivos pero son los necesarios para que la navegación por el menu mostrado en el display sea óptima.
 
